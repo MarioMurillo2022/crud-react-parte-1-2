@@ -1,10 +1,12 @@
 import './App.css';
+import { Crud } from './components/Crud';
+import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <h1>Hola mundo</h1>
+        <Crud></Crud>
       </header>
     </div>
   );

@@ -1,7 +1,17 @@
 .App {
   text-align: center;
+  padding: 50px;
+}
+
+.card-img-top {
+  width: 100%;
+  height: 60vh;
 }
 
 body {
   background-color: #a9d6e5;
+}
+
+div .card :hover {
+  box-shadow: 0 4px 10px #07236a1a;
 }
