@@ -1,14 +1,15 @@
 import './App.css';
-import { Crud } from './components/Crud';
+import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { CrudEscuelas } from './components/CrudEscuelas';
 import 'bootstrap/dist/css/bootstrap.min.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <Crud></Crud>
-      </header>
-    </div>
+    <BrowserRouter>
+      <Routes>
+        <Route path='/' element={<CrudEscuelas />} />
+      </Routes>
+    </BrowserRouter>
   );
 }
 
